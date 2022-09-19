@@ -6,16 +6,16 @@ export const styles = StyleSheet.create({
     marginRight: 24,
   },
   cover: {
-    width: 240,
-    height: 320,
+    width: 210,
+    height: 290,
     justifyContent: 'flex-end',
     borderRadius: 8,
     overflow: 'hidden',
   },
   footer: {
     width: '100%',
-    height: 102,
-    padding: 16,
+    height: 120,
+    padding: 10,
     justifyContent: 'flex-end',
   },
   name: {

@@ -14,42 +14,42 @@ function App() {
         <img src="./Apex.png" alt="" />
         <div className='w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
           <strong className='font-bold text-white block'>Apex Legends</strong>
-          <span className='tex-zinc-300 text-sm text-white block'>4 Anuncios</span>
+          <span className='tex-zinc-300 text-sm text-[#2ecc71] block'>4 Anuncios</span>
         </div>
       </a>
       <a href="" className='relative rounded-lg overflow-hidden' >
         <img src="./League_of_legends.png"  />
         <div className='w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
           <strong className='font-bold text-white block'>League of Legends</strong>
-          <span className='tex-zinc-300 text-sm text-white block'>6 Anuncios</span>
+          <span className='tex-zinc-300 text-sm text-[#2ecc71] block'>6 Anuncios</span>
         </div>
       </a>
       <a href="" className='relative rounded-lg overflow-hidden' >
         <img src="./CsGo.png"  />
         <div className='w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
           <strong className='font-bold text-white block'>CsGo</strong>
-          <span className='tex-zinc-300 text-sm text-white block'>6 Anuncios</span>
+          <span className='tex-zinc-300 text-sm text-[#2ecc71] block'>6 Anuncios</span>
         </div>
       </a>
       <a href="" className='relative rounded-lg overflow-hidden' >
         <img src="./Dota2.png"  />
         <div className='w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
           <strong className='font-bold text-white block'>Dota 2</strong>
-          <span className='tex-zinc-300 text-sm text-white block'>6 Anuncios</span>
+          <span className='tex-zinc-300 text-sm text-[#2ecc71] block'>6 Anuncios</span>
         </div>
       </a>
       <a href="" className='relative rounded-lg overflow-hidden' >
         <img src="./Ww.png"  />
         <div className='w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
           <strong className='font-bold text-white block'>World of Warcraft</strong>
-          <span className='tex-zinc-300 text-sm text-white block'>6 Anuncios</span>
+          <span className='tex-zinc-300 text-sm text-[#2ecc71] block'>6 Anuncios</span>
         </div>
       </a>
       <a href="" className='relative rounded-lg overflow-hidden' >
         <img src="./fortnite.png"  />
         <div className='w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
           <strong className='font-bold text-white block'>Fortnite</strong>
-          <span className='tex-zinc-300 text-sm text-white block'>6 Anuncios</span>
+          <span className='tex-zinc-300 text-sm text-[#2ecc71] block'>6 Anuncios</span>
         </div>
       </a>
 

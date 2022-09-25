@@ -5,9 +5,9 @@ import logoImage from '../../assets/logo-nlw-esports.png';
 import { Background } from '../../components/Background';
 import { Heading } from '../../components/Heading';
 import { GameCard, GameCardProps } from '../../components/GameCard';
-import {SafeAreaView} from 'react-native-safe-area-context'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
-import {useNavigation} from '@react-navigation/native'
+import { useNavigation } from '@react-navigation/native'
 
 
 
@@ -17,9 +17,9 @@ export function Home() {
 
   const navegation = useNavigation();
 
-  function handleopenNavigation({id,title , bannerUrl}:GameCardProps){
+  function handleopenNavigation({ id, title, bannerUrl }: GameCardProps) {
 
-    navegation.navigate("game",{id,title,bannerUrl});
+    navegation.navigate("game", { id, title, bannerUrl });
   }
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export function Home() {
           renderItem={({ item }) => (
             <GameCard
               data={item}
-              onPress = {()=>handleopenNavigation(item)}
+              onPress={() => handleopenNavigation(item)}
 
             />
           )}
